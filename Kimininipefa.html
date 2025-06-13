@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Pefa Church Kiminini</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      margin: 0;
+      background-color: #f5f5f5;
+      color: #10030f;
+    }
+
+    header {
+      background-color: #a00aa0;
+      color: White;
+      padding: 20px 0;
+      text-align: center;
+    }
+
+    nav {
+      background-color: #9c9a97;
+      overflow: hidden;
+    }
+
+    nav a {
+      float: left;
+      display: block;
+      color: #ffffff;
+      text-align: center;
+      padding: 14px 20px;
+      text-decoration: none;
+    }
+
+    nav a:hover {
+      background-color: #5757a3;
+    }
+
+    .container {
+      padding: 40px 20px;
+      max-width: 1000px;
+      margin: auto;
+    }
+
+    .section {
+      margin-bottom: 60px;
+    }
+
+    h2 {
+      color: #2a2a72;
+    }
+
+    footer {
+      background-color: #3e043e;
+      color: white;
+      text-align: center;
+      padding: 20px 0;
+    }
+
+    iframe {
+      border: 0;
+      width: 100%;
+      height: 300px;
+    }
+
+    img.responsive {
+      width: 100%;
+      max-width: 600px;
+      height: auto;
+      display: block;
+      margin: 20px auto;
+      border-radius: 10px;
+    }
+
+    @media (max-width: 600px) {
+      nav a {
+        float: none;
+        width: 100%;
+        text-align: left;
+      }
+    }
+
+.photo-row {
+  display: flex;
+  overflow-x: auto;
+  white-space: nowrap;
+  gap: 15px;
+  padding: 10px 0;
+  scroll-behavior: smooth;
+}
+
+
+.photo-row img {
+  height: 200px;
+  flex-shrink: 0;
+  border-radius: 8px;
+  object-fit: cover;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+/*custom scrollbar for aesthetics */
+.photo-row::-webkit-scrollbar {
+  height: 8px;
+}
+
+.photo-row::-webkit-scrollbar-thumb {
+  background-color: #c015cf;
+  border-radius: 6px;
+}
+
+.zoom-container {
+      overflow: hidden;
+      width: 300px;
+    }
+
+    .zoom-container img {
+      width: 100%;
+      transition: transform 0.3s ease;
+    }
+
+    .zoom-container:hover img {
+      transform: scale(1.5);
+    }
+
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>Pefa Church Kiminini Cathedral</h1>
+  <p>Sanctuary Of Love.</p>
+</header>
+
+<nav>
+  <a href="#home">Home</a>
+  <a href="#mission">About</a>
+  <a href="#services">Services</a>
+  <a href="#contact">Contact</a>
+</nav>
+
+<div class="container">
+
+  <section id="home" class="section">
+    <h2>Welcome</h2>
+    <p>We are so glad you're here!</p>
+
+     <p>At PEFA Church Kiminini, we believe in creating a space where everyone feels seen, valued, and deeply loved. Whether you're just starting your spiritual journey or have been walking with Christ for years, you have a place in our family.
+      
+      Our church is a vibrant and diverse community rooted in the Word of God, passionate in worship, and committed to serving others. We gather to grow in faith, build authentic relationships, and bring hope to our neighborhoods and beyond.
+      
+      Come as you are — there’s a seat waiting for you.
+      
+      You are welcome. You are loved. You belong..</p>
+
+    <!-- Add a fullscreen mode on the photos for easy visibility -->
+          <div class="photo-item"> <section class="section">
+        <h2>Photo Gallery</h2>
+        <div class="photo-row"> 
+          <div class="photo-item">
+            <div class="zoom-container">
+       <img src="IMG-20250504-WA0011.jpg" alt="Photo 1">
+            </div>
+            <p class="caption">Church layout</p>
+          </div>
+          <div class="photo-row">
+            <div class="photo-item">
+              <div class="zoom-container">
+              <img src="IMG-20250504-WA0003.jpg" alt="Photo 2">
+              </div>
+              <p class="caption">Bishop Isaih Lusaka</p>
+            </div> 
+    
+          <div class="photo-item">
+            <div class="zoom-container">
+            <img src="IMG-20250504-WA0021.jpg" alt="Photo 3">
+            </div>
+            <p class="caption">Service in progress</p>
+          </div>
+            <div class="zoom-container">
+            <img src="IMG-20250504-WA0064.jpg"alt="Photo 4">
+            </div>
+            <p class="caption">Men's fellowship</p>
+          </div>
+        <div class="photo-item">
+          <div class="zoom-container">
+          <img src="IMG-20250504-WA0047.jpg" alt="Photo 5">
+          </div>
+          <p class="caption">Women fellowship</p>
+        </div>
+      <div class="photo-item">
+        <div class="zoom-container">
+        <img src="IMG-20250504-WA0040.jpg" alt="Photo 6">
+        </div>
+        <p class="caption">Some of the youths</p>
+      </div>
+    <div class="photo-item">
+      <div class="zoom-container">
+      <img src="IMG-20250504-WA0053.jpg" alt="Photo 7">
+      </div>
+      <p class="caption">Praise and worship team</p>
+    </div>
+  <div class="photo-item">
+    <div class="zoom-container">
+    <img src="IMG-20250504-WA0040.jpg" alt="Photo 8">
+    </div>
+    <p class="caption">Some of the youths</p>
+  </div>
+  <div class="photo-item">
+  <div class="zoom-container">
+  <img src="IMG-20250504-WA0046.jpg" alt="Photo 9">
+  </div>
+  <p class="caption">Some of the sundy school</p>
+</div>
+<div class="photo-item">
+  <div class="zoom-container">
+  <img src="IMG-20250504-WA0045.jpg" alt="Photo 9">
+  </div>
+  <p class="caption">Baptisim</p>
+</div>
+<div class="photo-item">
+  <div class="zoom-container">
+  <img src="IMG-20250504-WA0015.jpg" alt="Photo 10">
+  </div>
+  <p class="caption">Some of the block members</p>
+</div>
+<div class="photo-item">
+  <div class="zoom-container">
+  <img src="IMG-20250504-WA0026.jpg" alt="Photo 10">
+  </div>
+  <p class="caption">Celebrations</p>
+</div>
+          <!-- Add more photo-item blocks as needed -->
+           <!--Add the zoom button that enables the user to add how the size of the image however much they like-->
+      </section>     
+       
+   <section id="mission" class="section">
+     <h2>Mission</h2>
+    <p>We exist to build and expand the kingdom of God by preaching and teaching the holistic Gospel of Jesus Christ for the transformation and fulfillment of life (Matthew 28:18-20).</p>
+  </section>
+
+  <section class="section">
+    <h2>Vision</h2>
+    <p>To be a church that knows Christ and makes him known in its area of jurisdiction and to the whole world.</p>
+  </section>
+
+  <section class="section">
+    <h2>History</h2>
+    <p>PEFA Church Kiminini is one of the Local Church Assembles of PEFA in Kitale West
+    District, Western North Rift Region of the PEFA Church. The church has a rich history
+    dating back in the mid 1960's since it started as a local church Assembly. It is a fairly large
+    church of about 500 congregants with a wide range of diversities and spiritual needs which is
+    addressed through Sunday, Wednesday and Friday services in the the eleven blocks. It has distinct ministries i.e. men, women (UWP), Sunday school and Youth.</p>
+    <p>This location exposes the church to intervention with political, economic and social cultural
+    issues both locally and national levels.</p>
+    <p>This is attested by its diverse stakeholder type of numbers and the strategic engagement it
+    assumes across PEFA fraternity.</p>
+    <p>The women (UWP) meets on Wednesday in the above mentioned blocks under
+    their leadership. The church has a praise and worship team church welfare, men’s welfare and
+    men’s fellowship that congregates ounce per month.</p>
+    
+    <p>There are ministries for men, women (UWP), Sunday school, and youth. The women’s group meets on Wednesdays, and the men’s fellowship meets monthly. The church also has a vibrant praise and worship team, and both men’s and general church welfare ministries.</p>
+  </section>
+
+  <section class="section">
+    <h2>Core Beliefs and Values</h2>
+    <ol>
+      <li>We value the Holy Bible as the inerrant, inspired Word of God.</li>
+      <li>We value God’s unconditional love through Christ's redemptive work on the cross.</li>
+      <li>We value prayer, believer’s baptism, stewardship, and spiritual gifts.</li>
+      <li>We value our royal priesthood calling to evangelize and disciple.</li>
+      <li>We value worship through prayer, praise, and teaching.</li>
+      <li>We value unity in the Body of Christ and compassionate fellowship.</li>
+      <li>We value honesty, integrity, and accountability in all walks of life.</li>
+      <li>We value cooperation with other churches in evangelism and missions.</li>
+      <li>We value discipleship for all ages and democratic church governance.</li>
+    </ol>
+  </section>
+
+  <section id="services" class="section">
+    <h2>Service Times</h2>
+    <ul>
+      <li><strong>First Service:</strong> 7:30 AM</li>
+      <li><strong>Second Service:</strong> 10:00 AM</li>
+      <li><strong>Assemblies (Second sunday of the month):</strong> 9:00 AM</li>
+    </ul>
+  </section>
+
+  <section id="contact" class="section">
+    <h2>Contact Us</h2>
+    <p>Email: <a href="mailto:info@pefachurchkiminini.org">info@pefachurchkiminini.org</a></p>
+    <p>Phone: (+245)-748485694</p>
+    <p>Location: Along Kitale Webuye Road</p>
+     <iframe
+        src="https://maps.google.com/maps?q=0.8929152251219836,34.92162943705593&z=15&output=embed"
+        width="100%"
+        height="300"
+        frameborder="0"
+        style="border:0; border-radius: 8px;"
+        allowfullscreen>
+      </iframe>
+      
+  </section>
+
+</div>
+
+<footer>
+  <p>&copy; 2025 Kiminini PEFA Church Cathedral. All rights reserved.</p>
+</footer>
+
+</body>
+</html>
+
